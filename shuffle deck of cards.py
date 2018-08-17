@@ -1,0 +1,3 @@
+#not yet studied about the topic used in this program code...
+e='hello world'
+print(e[1:8])
