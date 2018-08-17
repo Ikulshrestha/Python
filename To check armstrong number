@@ -1,0 +1,23 @@
+#for 3 digit number
+sum=0
+num=int(input("Enter the number"))
+temp = num
+if(len(str(num))==3):
+    while temp>0:
+        digit=temp%10
+        sum+=digit**3
+        temp //=10
+    if(num==sum):
+        print("It is an armstrong number")
+    else:
+        print("It is not an armstrong number")
+#for 4 digit number
+elif(len(str(temp))==4):
+    while temp>0:
+        digit=temp%10
+        sum=digit**4
+        temp//=10
+    if(temp==sum):
+        print("It is an armstrong number")
+    else:
+        print("It is not an armstrong number")
